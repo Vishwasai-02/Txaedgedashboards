@@ -1,0 +1,73 @@
+.tx-comm-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: calc(100vh - 120px);
+}
+
+.tx-comm-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.tx-comm-title h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--tx-primary-text);
+  margin-bottom: 4px;
+}
+
+.tx-comm-title p {
+  font-size: 14px;
+  color: var(--tx-secondary-text);
+}
+
+.tx-comm-meta-badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tx-comm-domain-tag {
+  background-color: var(--tx-light-blue);
+  color: var(--tx-primary-navy);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: var(--tx-radius-full);
+  border: 1px solid rgba(8, 59, 117, 0.2);
+  letter-spacing: 0.5px;
+}
+
+.tx-comm-role-tag {
+  background-color: var(--tx-light-orange);
+  color: var(--tx-primary-orange);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: var(--tx-radius-full);
+  border: 1px solid rgba(249, 115, 22, 0.2);
+}
+
+.tx-comm-access-alert {
+  background-color: var(--tx-error-light);
+  color: var(--tx-error);
+  padding: 12px 16px;
+  border-radius: var(--tx-radius-md);
+  border-left: 4px solid var(--tx-error);
+  font-size: 13px;
+}
+
+.tx-comm-container {
+  flex: 1;
+  display: flex;
+  background-color: var(--tx-surface);
+  border: 1px solid var(--tx-border);
+  border-radius: var(--tx-radius-lg);
+  box-shadow: var(--tx-shadow-sm);
+  overflow: hidden;
+  min-height: 480px;
+}

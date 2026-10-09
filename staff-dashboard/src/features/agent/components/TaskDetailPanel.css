@@ -1,0 +1,136 @@
+.tx-task-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tx-task-card-header {
+  background-color: var(--tx-surface);
+  border: 1px solid var(--tx-border);
+  border-radius: var(--tx-radius-lg);
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+  box-shadow: var(--tx-shadow-sm);
+}
+
+.tx-task-meta-left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tx-task-id-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.tx-task-title-text {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--tx-primary-text);
+}
+
+.tx-task-actions-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.tx-task-split-view {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .tx-task-split-view {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tx-checklist-card,
+.tx-cert-card {
+  background-color: var(--tx-surface);
+  border: 1px solid var(--tx-border);
+  border-radius: var(--tx-radius-lg);
+  padding: 20px 24px;
+  box-shadow: var(--tx-shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tx-card-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--tx-primary-text);
+  border-bottom: 1px solid var(--tx-border);
+  padding-bottom: 12px;
+}
+
+.tx-checklist-items {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.tx-check-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 14px;
+  background-color: var(--tx-background);
+  border-radius: var(--tx-radius-md);
+  border: 1px solid var(--tx-border);
+  cursor: pointer;
+  font-size: 14px;
+  transition: all var(--tx-transition-fast);
+}
+
+.tx-check-item.done {
+  text-decoration: line-through;
+  opacity: 0.7;
+  border-left: 4px solid var(--tx-success);
+}
+
+.tx-check-checkbox {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--tx-primary-navy);
+}
+
+.tx-instructions-box {
+  background-color: var(--tx-light-blue);
+  border: 1px solid rgba(11, 94, 215, 0.2);
+  border-radius: var(--tx-radius-md);
+  padding: 14px;
+  font-size: 13px;
+  color: var(--tx-primary-navy);
+}
+
+.tx-cert-info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  font-size: 13px;
+}
+
+.tx-cert-label {
+  color: var(--tx-secondary-text);
+}
+
+.tx-cert-value {
+  font-weight: 600;
+  color: var(--tx-primary-text);
+}
+
+.tx-cert-status-verified {
+  font-weight: 600;
+  color: var(--tx-success);
+}

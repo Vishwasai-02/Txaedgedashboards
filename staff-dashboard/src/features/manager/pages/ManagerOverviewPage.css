@@ -1,0 +1,42 @@
+.tx-mgr-overview {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tx-mgr-hero {
+  background: var(--tx-header-gradient);
+  border-radius: var(--tx-radius-lg);
+  padding: 24px 32px;
+  color: #FFFFFF;
+  box-shadow: var(--tx-shadow-md);
+}
+
+.tx-mgr-hero h2 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.tx-mgr-hero p {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.tx-mgr-summary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.tx-mgr-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tx-mgr-section-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--tx-primary-text);
+}

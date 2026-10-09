@@ -1,0 +1,7 @@
+@import '../../ca-manager/pages/CaCustomersPage.css';
+
+.tx-loan-customers-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

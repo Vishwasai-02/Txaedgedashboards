@@ -1,0 +1,16 @@
+{
+  "name": "taxedge-system",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev:admin": "npm run dev --prefix admin-dashboard",
+    "dev:staff": "npm run dev --prefix staff-dashboard",
+    "build:admin": "npm run build --prefix admin-dashboard",
+    "build:staff": "npm run build --prefix staff-dashboard",
+    "build:all": "npm run build:admin && npm run build:staff",
+    "typecheck:admin": "npm run typecheck --prefix admin-dashboard",
+    "typecheck:staff": "npm run typecheck --prefix staff-dashboard",
+    "typecheck:all": "npm run typecheck:admin && npm run typecheck:staff",
+    "test": "npx tsx test_communication_matrix.mjs && npx tsx test_manager_enhancements.mjs"
+  }
+}

@@ -1,0 +1,37 @@
+export const ROLES = {
+  SUPER_ADMIN: 'SUPER_ADMIN',
+  CA_MANAGER: 'CA_MANAGER',
+  CA_AGENT: 'CA_AGENT',
+  LOAN_MANAGER: 'LOAN_MANAGER',
+  LOAN_AGENT: 'LOAN_AGENT',
+  ADMIN: 'ADMIN',
+  MANAGER: 'MANAGER',
+  AGENT: 'AGENT',
+  CUSTOMER: 'CUSTOMER'
+};
+
+export const DOMAINS = {
+  GLOBAL: 'GLOBAL',
+  CA: 'CA',
+  LOAN: 'LOAN'
+};
+
+export const ROLE_LABELS = {
+  [ROLES.SUPER_ADMIN]: 'Super Administrator',
+  [ROLES.CA_MANAGER]: 'CA Case Manager',
+  [ROLES.CA_AGENT]: 'CA Operations Executive',
+  [ROLES.LOAN_MANAGER]: 'Loan Case Manager',
+  [ROLES.LOAN_AGENT]: 'Loan Processing Executive',
+  [ROLES.ADMIN]: 'Administrator',
+  [ROLES.MANAGER]: 'Case Manager',
+  [ROLES.AGENT]: 'Executive / Agent',
+  [ROLES.CUSTOMER]: 'Client'
+};
+
+export const PERMISSIONS = {
+  CAN_COMMUNICATE_MANAGER: 'CAN_COMMUNICATE_MANAGER',
+  CAN_COMMUNICATE_AGENT: 'CAN_COMMUNICATE_AGENT',
+  CAN_MONITOR_AGENTS: 'CAN_MONITOR_AGENTS',
+  CAN_AUDIT_DOCUMENTS: 'CAN_AUDIT_DOCUMENTS',
+  CAN_EXECUTE_TASKS: 'CAN_EXECUTE_TASKS'
+};

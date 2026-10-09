@@ -1,0 +1,206 @@
+.tx-ca-calendar-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tx-cal-badge {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: var(--tx-radius-sm, 6px);
+  background-color: var(--tx-light-blue, #EFF6FF);
+  color: var(--tx-primary-blue, #0B5ED7);
+  border: 1px solid rgba(11, 94, 215, 0.2);
+}
+
+.tx-reminder-alert {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--tx-success-light, #ECFDF5);
+  color: var(--tx-success, #10B981);
+  padding: 10px 16px;
+  border-radius: var(--tx-radius-sm, 6px);
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.tx-calendar-controls {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tx-cal-filter-pills {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tx-cal-pill {
+  padding: 6px 14px;
+  border-radius: var(--tx-radius-md, 8px);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  background-color: var(--tx-surface, #FFFFFF);
+  color: var(--tx-secondary-text, #64748B);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tx-cal-pill:hover {
+  background-color: var(--tx-background, #F7F9FC);
+  color: var(--tx-primary-text, #172033);
+}
+
+.tx-cal-pill.active {
+  background-color: var(--tx-primary-navy, #083B75);
+  color: #FFFFFF;
+  border-color: var(--tx-primary-navy, #083B75);
+  font-weight: 600;
+}
+
+.tx-calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.tx-cal-card {
+  background-color: var(--tx-surface, #FFFFFF);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  border-radius: var(--tx-radius-md, 8px);
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tx-cal-card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tx-cal-header-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tx-cal-category-chip {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--tx-primary-blue, #0B5ED7);
+  background-color: var(--tx-light-blue, #EFF6FF);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.tx-cal-period {
+  font-size: 11px;
+  color: var(--tx-secondary-text, #64748B);
+  font-weight: 500;
+}
+
+.tx-cal-form-name-row {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tx-cal-form-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--tx-primary-text, #172033);
+  margin: 0;
+}
+
+.tx-cal-due-box {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--tx-error, #DC2626);
+}
+
+.tx-cal-impact-row {
+  display: flex;
+  background-color: var(--tx-background, #F7F9FC);
+  padding: 8px 12px;
+  border-radius: var(--tx-radius-sm, 6px);
+  border: 1px solid var(--tx-border, #E2E8F0);
+}
+
+.tx-impact-col {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.tx-impact-val {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--tx-primary-text, #172033);
+}
+
+.tx-impact-lbl {
+  font-size: 11px;
+  color: var(--tx-secondary-text, #64748B);
+}
+
+.tx-cal-penalty-box {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 11px;
+  color: var(--tx-secondary-text, #64748B);
+  background-color: #FFFBEB;
+  border: 1px solid #FDE68A;
+  border-radius: var(--tx-radius-sm, 6px);
+  padding: 8px 10px;
+}
+
+.tx-penalty-icon {
+  color: #D97706;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+.tx-penalty-text strong {
+  color: #92400E;
+}
+
+.tx-cal-card-footer {
+  margin-top: auto;
+  padding-top: 10px;
+  border-top: 1px solid var(--tx-border, #E2E8F0);
+}
+
+.tx-btn-send-reminders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  background-color: var(--tx-light-blue, #EFF6FF);
+  color: var(--tx-primary-blue, #0B5ED7);
+  border: 1px solid rgba(11, 94, 215, 0.2);
+  padding: 8px 14px;
+  border-radius: var(--tx-radius-sm, 6px);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tx-btn-send-reminders:hover {
+  background-color: var(--tx-primary-blue, #0B5ED7);
+  color: #FFFFFF;
+}

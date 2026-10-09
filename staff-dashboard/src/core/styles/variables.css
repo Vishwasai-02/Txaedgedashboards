@@ -1,0 +1,68 @@
+/* TaxEdge Official Color Theme Variables */
+:root {
+  /* Core Palette */
+  --tx-primary-navy: #083B75;
+  --tx-primary-blue: #0B5ED7;
+  --tx-primary-orange: #F97316;
+  --tx-background: #F7F9FC;
+  --tx-surface: #FFFFFF;
+  --tx-primary-text: #172033;
+  --tx-secondary-text: #64748B;
+  --tx-muted-text: #94A3B8;
+  --tx-border: #E2E8F0;
+  --tx-subtle-border: #F1F5F9;
+
+  /* Semantic Colors */
+  --tx-success: #16A34A;
+  --tx-feature-success: #059669;
+  --tx-success-light: #E6F5F0;
+  --tx-error: #DC2626;
+  --tx-error-light: #FDEBEB;
+  --tx-warning: #F59E0B;
+  --tx-warning-light: #FEF3C7;
+
+  /* Special Colors */
+  --tx-navy-dark: #052750;
+  --tx-deep-navy: #06152D;
+  --tx-feature-orange: #FF7A00;
+  --tx-active-tab-orange: #FF5722;
+  --tx-floating-tab-bar: #1E3A5F;
+  --tx-light-blue: #EAF1FE;
+  --tx-light-orange: #FEF0E6;
+  --tx-splash-navy: #0F1D36;
+
+  /* Official Service Header Gradient */
+  --tx-header-gradient: linear-gradient(135deg, #061933 0%, #083B75 50%, #0C4A94 100%);
+  --tx-primary-gradient: linear-gradient(135deg, #083B75 0%, #0B5ED7 100%);
+
+  /* UI Tokens */
+  --tx-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --tx-radius-sm: 4px;
+  --tx-radius-md: 8px;
+  --tx-radius-lg: 12px;
+  --tx-radius-full: 9999px;
+  --tx-shadow-sm: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --tx-shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.07), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --tx-shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.03);
+  --tx-transition-fast: 0.15s ease;
+  --tx-transition-normal: 0.25s ease;
+}
+
+/* Dark Mode Theme */
+[data-theme="dark"] {
+  --tx-background: #0F172A;
+  --tx-surface: #1E293B;
+  --tx-primary-text: #F8FAFC;
+  --tx-secondary-text: #94A3B8;
+  --tx-muted-text: #64748B;
+  --tx-border: #334155;
+  --tx-subtle-border: #1E293B;
+  --tx-primary-blue: #38BDF8;
+  --tx-primary-orange: #FB923C;
+  --tx-success: #22C55E;
+  --tx-error: #EF4444;
+  --tx-light-blue: #1E3A5F;
+  --tx-light-orange: #3D2619;
+  --tx-success-light: #143525;
+  --tx-error-light: #3D1A1A;
+}

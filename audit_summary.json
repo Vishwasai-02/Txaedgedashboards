@@ -1,0 +1,1086 @@
+[
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaDocumentReviewPage.css",
+    "lines": 862
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaTeamPage.tsx",
+    "lines": 694
+  },
+  {
+    "rel": "admin-dashboard/src/features/applications/pages/ApplicationsPage.tsx",
+    "lines": 686
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanTeamPage.tsx",
+    "lines": 680
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaDocumentReviewPage.tsx",
+    "lines": 627
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanTeamPage.css",
+    "lines": 600
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanDocumentsPage.css",
+    "lines": 572
+  },
+  {
+    "rel": "admin-dashboard/src/features/customers/pages/CustomersPage.tsx",
+    "lines": 569
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanLeadsPage.tsx",
+    "lines": 532
+  },
+  {
+    "rel": "admin-dashboard/src/features/settings/pages/SettingsPage.tsx",
+    "lines": 489
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanDocumentsPage.tsx",
+    "lines": 486
+  },
+  {
+    "rel": "admin-dashboard/src/features/services/pages/ServicesPage.tsx",
+    "lines": 473
+  },
+  {
+    "rel": "admin-dashboard/src/features/applications/pages/ApplicationsPage.css",
+    "lines": 466
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanServiceQueuePage.tsx",
+    "lines": 445
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanCreditAssessmentPage.css",
+    "lines": 440
+  },
+  {
+    "rel": "admin-dashboard/src/infrastructure/persistence/seeds/baseSeeds.ts",
+    "lines": 428
+  },
+  {
+    "rel": "staff-dashboard/src/infrastructure/persistence/seeds/baseSeeds.ts",
+    "lines": 428
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaCustomersPage.tsx",
+    "lines": 397
+  },
+  {
+    "rel": "admin-dashboard/src/features/services/pages/ServicesPage.css",
+    "lines": 396
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanCustomersPage.tsx",
+    "lines": 390
+  },
+  {
+    "rel": "admin-dashboard/src/features/overview/pages/OverviewPage.css",
+    "lines": 389
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/pages/TaskDetailPage.tsx",
+    "lines": 384
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/pages/AgentDocumentsPage.css",
+    "lines": 382
+  },
+  {
+    "rel": "staff-dashboard/src/routes/AppRoutes.tsx",
+    "lines": 373
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaServiceQueuePage.tsx",
+    "lines": 368
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaCustomersPage.css",
+    "lines": 361
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanServiceQueuePage.css",
+    "lines": 359
+  },
+  {
+    "rel": "admin-dashboard/src/features/overview/pages/OverviewPage.tsx",
+    "lines": 356
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanEligibilityPage.tsx",
+    "lines": 355
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/pages/AgentProfilePage.tsx",
+    "lines": 348
+  },
+  {
+    "rel": "admin-dashboard/src/infrastructure/persistence/seeds/workflowSeeds.ts",
+    "lines": 346
+  },
+  {
+    "rel": "staff-dashboard/src/infrastructure/persistence/seeds/workflowSeeds.ts",
+    "lines": 346
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanUnderwritingPage.tsx",
+    "lines": 345
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanUnderwritingPage.css",
+    "lines": 344
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanApplicationsPage.css",
+    "lines": 338
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/pages/AgentDocumentsPage.tsx",
+    "lines": 333
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanEligibilityPage.css",
+    "lines": 330
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanCreditAssessmentPage.tsx",
+    "lines": 326
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanFollowupsPage.css",
+    "lines": 317
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanApplicationsPage.tsx",
+    "lines": 316
+  },
+  {
+    "rel": "admin-dashboard/src/features/revenue/pages/RevenuePage.tsx",
+    "lines": 304
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaManagerDashboardPage.css",
+    "lines": 302
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanRepaymentsPage.tsx",
+    "lines": 301
+  },
+  {
+    "rel": "staff-dashboard/src/core/hooks/useWorkflowStore.ts",
+    "lines": 300
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanRepaymentsPage.css",
+    "lines": 300
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/services/loanManagerApi.ts",
+    "lines": 295
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanLeadsPage.css",
+    "lines": 293
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanFollowupsPage.tsx",
+    "lines": 290
+  },
+  {
+    "rel": "staff-dashboard/src/core/layout/Topbar.css",
+    "lines": 289
+  },
+  {
+    "rel": "admin-dashboard/src/features/employees/pages/AgentsPage.tsx",
+    "lines": 285
+  },
+  {
+    "rel": "admin-dashboard/src/features/employees/pages/ManagersPage.tsx",
+    "lines": 284
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/DataTable/DataTable.tsx",
+    "lines": 280
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/DataTable/DataTable.tsx",
+    "lines": 280
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaFollowupsPage.tsx",
+    "lines": 280
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanManagerDashboardPage.css",
+    "lines": 276
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanSanctionsPage.tsx",
+    "lines": 268
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanSanctionsPage.css",
+    "lines": 266
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/DataTable/DataTable.css",
+    "lines": 265
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/DataTable/DataTable.css",
+    "lines": 265
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/pages/AgentDashboardPage.css",
+    "lines": 260
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanReportsPage.tsx",
+    "lines": 249
+  },
+  {
+    "rel": "admin-dashboard/src/core/layout/Sidebar.css",
+    "lines": 244
+  },
+  {
+    "rel": "staff-dashboard/src/core/layout/Sidebar.css",
+    "lines": 244
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaFilingCalendarPage.tsx",
+    "lines": 240
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaServiceQueuePage.css",
+    "lines": 240
+  },
+  {
+    "rel": "admin-dashboard/src/features/reports/pages/ReportsPage.tsx",
+    "lines": 236
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanManagerDashboardPage.tsx",
+    "lines": 236
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaManagerDashboardPage.tsx",
+    "lines": 233
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanReportsPage.css",
+    "lines": 231
+  },
+  {
+    "rel": "admin-dashboard/src/features/settings/pages/SettingsPage.css",
+    "lines": 228
+  },
+  {
+    "rel": "admin-dashboard/src/infrastructure/persistence/storeSlices/workflowSlice.ts",
+    "lines": 228
+  },
+  {
+    "rel": "staff-dashboard/src/infrastructure/persistence/storeSlices/workflowSlice.ts",
+    "lines": 228
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanProfilePage.css",
+    "lines": 226
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/pages/AgentDashboardPage.tsx",
+    "lines": 219
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaProfilePage.tsx",
+    "lines": 218
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanProfilePage.tsx",
+    "lines": 217
+  },
+  {
+    "rel": "admin-dashboard/src/shared/types/workflowTypes.ts",
+    "lines": 216
+  },
+  {
+    "rel": "staff-dashboard/src/shared/types/workflowTypes.ts",
+    "lines": 216
+  },
+  {
+    "rel": "staff-dashboard/src/features/communication/services/staffCommunicationApi.ts",
+    "lines": 210
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaFilingCalendarPage.css",
+    "lines": 207
+  },
+  {
+    "rel": "admin-dashboard/src/core/layout/Topbar.css",
+    "lines": 203
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/services/caManagerApi.ts",
+    "lines": 201
+  },
+  {
+    "rel": "admin-dashboard/src/core/hooks/useWorkflowStore.ts",
+    "lines": 200
+  },
+  {
+    "rel": "admin-dashboard/src/features/communication/pages/CommunicationPage.tsx",
+    "lines": 196
+  },
+  {
+    "rel": "admin-dashboard/src/features/communication/pages/CommunicationPage.css",
+    "lines": 194
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaProfilePage.css",
+    "lines": 194
+  },
+  {
+    "rel": "admin-dashboard/src/assets/images/taxedge-logo.png",
+    "lines": 189
+  },
+  {
+    "rel": "staff-dashboard/src/assets/images/taxedge-logo.png",
+    "lines": 189
+  },
+  {
+    "rel": "admin-dashboard/src/infrastructure/persistence/storeSlices/applicationSlice.ts",
+    "lines": 188
+  },
+  {
+    "rel": "staff-dashboard/src/infrastructure/persistence/storeSlices/applicationSlice.ts",
+    "lines": 188
+  },
+  {
+    "rel": "admin-dashboard/src/features/revenue/pages/RevenuePage.css",
+    "lines": 187
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/components/TaskDetailPanel.tsx",
+    "lines": 185
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaTeamPage.css",
+    "lines": 181
+  },
+  {
+    "rel": "admin-dashboard/src/features/communication/services/communicationApi.ts",
+    "lines": 177
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/pages/AgentProfilePage.css",
+    "lines": 177
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaFollowupsPage.css",
+    "lines": 175
+  },
+  {
+    "rel": "admin-dashboard/src/core/styles/forms.css",
+    "lines": 171
+  },
+  {
+    "rel": "staff-dashboard/src/core/styles/forms.css",
+    "lines": 171
+  },
+  {
+    "rel": "admin-dashboard/src/infrastructure/persistence/sharedWorkflowStore.ts",
+    "lines": 167
+  },
+  {
+    "rel": "staff-dashboard/src/core/layout/Topbar.tsx",
+    "lines": 167
+  },
+  {
+    "rel": "staff-dashboard/src/infrastructure/persistence/sharedWorkflowStore.ts",
+    "lines": 167
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/components/TeamMonitoringTable.tsx",
+    "lines": 157
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaReportsPage.tsx",
+    "lines": 155
+  },
+  {
+    "rel": "staff-dashboard/src/core/layout/Sidebar.tsx",
+    "lines": 154
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/pages/TaskDetailPage.css",
+    "lines": 154
+  },
+  {
+    "rel": "admin-dashboard/src/features/notifications/pages/NotificationsPage.tsx",
+    "lines": 152
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/ConfirmationModal/ConfirmationModal.css",
+    "lines": 149
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/ConfirmationModal/ConfirmationModal.css",
+    "lines": 149
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/Button/Button.css",
+    "lines": 143
+  },
+  {
+    "rel": "admin-dashboard/src/features/employees/components/AddEmployeeForm.tsx",
+    "lines": 143
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/Button/Button.css",
+    "lines": 143
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/services/managerApi.ts",
+    "lines": 143
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/components/VerificationPanel.css",
+    "lines": 141
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/Modal/Modal.css",
+    "lines": 139
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/Modal/Modal.css",
+    "lines": 139
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/components/TaskDetailPanel.css",
+    "lines": 137
+  },
+  {
+    "rel": "admin-dashboard/src/routes/AppRoutes.tsx",
+    "lines": 136
+  },
+  {
+    "rel": "admin-dashboard/src/features/employees/components/EmployeeList.tsx",
+    "lines": 135
+  },
+  {
+    "rel": "staff-dashboard/src/core/store/authStore.ts",
+    "lines": 135
+  },
+  {
+    "rel": "admin-dashboard/src/features/customers/components/CustomerList.tsx",
+    "lines": 133
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/ErrorBoundary/ErrorBoundary.css",
+    "lines": 129
+  },
+  {
+    "rel": "staff-dashboard/src/features/ca-manager/pages/CaReportsPage.css",
+    "lines": 128
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/ActivityTimeline/ActivityTimeline.css",
+    "lines": 127
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/ActivityTimeline/ActivityTimeline.css",
+    "lines": 127
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/SummaryCard/SummaryCard.css",
+    "lines": 126
+  },
+  {
+    "rel": "admin-dashboard/src/features/reports/pages/ReportsPage.css",
+    "lines": 126
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/SummaryCard/SummaryCard.css",
+    "lines": 126
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/components/VerificationPanel.tsx",
+    "lines": 123
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/pages/ManagerOverviewPage.tsx",
+    "lines": 122
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/pages/ApplicationVerificationPage.tsx",
+    "lines": 117
+  },
+  {
+    "rel": "admin-dashboard/src/infrastructure/persistence/storeSlices/customerSlice.ts",
+    "lines": 115
+  },
+  {
+    "rel": "staff-dashboard/src/infrastructure/persistence/storeSlices/customerSlice.ts",
+    "lines": 115
+  },
+  {
+    "rel": "admin-dashboard/src/features/customers/pages/CustomersPage.css",
+    "lines": 114
+  },
+  {
+    "rel": "admin-dashboard/src/features/overview/components/RevenueChart.css",
+    "lines": 107
+  },
+  {
+    "rel": "admin-dashboard/src/features/applications/components/ApplicationsTable.tsx",
+    "lines": 102
+  },
+  {
+    "rel": "admin-dashboard/src/features/communication/components/ChatWindow.css",
+    "lines": 101
+  },
+  {
+    "rel": "admin-dashboard/src/infrastructure/persistence/storeSlices/communicationSlice.ts",
+    "lines": 101
+  },
+  {
+    "rel": "staff-dashboard/src/features/communication/components/ChatWindow.css",
+    "lines": 101
+  },
+  {
+    "rel": "staff-dashboard/src/infrastructure/persistence/storeSlices/communicationSlice.ts",
+    "lines": 101
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/pages/AgentTaskQueuePage.tsx",
+    "lines": 99
+  },
+  {
+    "rel": "admin-dashboard/src/core/layout/Sidebar.tsx",
+    "lines": 98
+  },
+  {
+    "rel": "admin-dashboard/src/features/notifications/components/NotificationItem.css",
+    "lines": 96
+  },
+  {
+    "rel": "staff-dashboard/src/features/notifications/components/NotificationItem.css",
+    "lines": 96
+  },
+  {
+    "rel": "staff-dashboard/src/features/auth/components/LoginForm.tsx",
+    "lines": 95
+  },
+  {
+    "rel": "admin-dashboard/src/features/communication/components/ChatThreadList.css",
+    "lines": 92
+  },
+  {
+    "rel": "staff-dashboard/src/features/communication/components/ChatThreadList.css",
+    "lines": 92
+  },
+  {
+    "rel": "staff-dashboard/src/features/communication/pages/StaffChatPage.tsx",
+    "lines": 92
+  },
+  {
+    "rel": "admin-dashboard/src/core/layout/Topbar.tsx",
+    "lines": 91
+  },
+  {
+    "rel": "admin-dashboard/src/features/auth/components/LoginForm.tsx",
+    "lines": 88
+  },
+  {
+    "rel": "admin-dashboard/src/features/overview/components/RevenueChart.tsx",
+    "lines": 88
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/ErrorBoundary/ErrorBoundary.tsx",
+    "lines": 86
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/components/AgentPicker.tsx",
+    "lines": 86
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/components/TaskQueueTable.tsx",
+    "lines": 82
+  },
+  {
+    "rel": "admin-dashboard/src/features/overview/components/ApplicationsByServiceChart.css",
+    "lines": 80
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/services/agentApi.ts",
+    "lines": 79
+  },
+  {
+    "rel": "admin-dashboard/src/features/communication/components/ChatWindow.tsx",
+    "lines": 78
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/components/IncomingQueueTable.tsx",
+    "lines": 78
+  },
+  {
+    "rel": "staff-dashboard/src/features/communication/components/ChatWindow.tsx",
+    "lines": 75
+  },
+  {
+    "rel": "admin-dashboard/src/features/revenue/components/RevenueSummaryCards.css",
+    "lines": 74
+  },
+  {
+    "rel": "staff-dashboard/src/features/communication/pages/StaffChatPage.css",
+    "lines": 74
+  },
+  {
+    "rel": "admin-dashboard/src/core/store/authStore.ts",
+    "lines": 69
+  },
+  {
+    "rel": "admin-dashboard/src/core/styles/variables.css",
+    "lines": 69
+  },
+  {
+    "rel": "admin-dashboard/src/features/reports/components/ReportsList.tsx",
+    "lines": 69
+  },
+  {
+    "rel": "staff-dashboard/src/core/styles/variables.css",
+    "lines": 69
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/components/DocumentChecklist.css",
+    "lines": 69
+  },
+  {
+    "rel": "admin-dashboard/src/features/auth/components/LoginForm.css",
+    "lines": 68
+  },
+  {
+    "rel": "admin-dashboard/src/features/employees/pages/AgentsPage.css",
+    "lines": 68
+  },
+  {
+    "rel": "admin-dashboard/src/features/employees/pages/ManagersPage.css",
+    "lines": 68
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/ConfirmationModal/ConfirmationModal.tsx",
+    "lines": 66
+  },
+  {
+    "rel": "admin-dashboard/src/features/reports/services/reportsApi.ts",
+    "lines": 66
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/ConfirmationModal/ConfirmationModal.tsx",
+    "lines": 66
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/PageHeader/PageHeader.css",
+    "lines": 65
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/PageHeader/PageHeader.css",
+    "lines": 65
+  },
+  {
+    "rel": "admin-dashboard/src/features/customers/components/CustomerList.css",
+    "lines": 64
+  },
+  {
+    "rel": "staff-dashboard/src/features/auth/components/LoginForm.css",
+    "lines": 64
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/StatusBadge/StatusBadge.css",
+    "lines": 63
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/StatusBadge/StatusBadge.css",
+    "lines": 63
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/EmptyState/EmptyState.css",
+    "lines": 60
+  },
+  {
+    "rel": "admin-dashboard/src/core/services/apiClient.ts",
+    "lines": 60
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/EmptyState/EmptyState.css",
+    "lines": 60
+  },
+  {
+    "rel": "staff-dashboard/src/core/services/apiClient.ts",
+    "lines": 60
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/ActivityTimeline/ActivityTimeline.tsx",
+    "lines": 59
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/ActivityTimeline/ActivityTimeline.tsx",
+    "lines": 59
+  },
+  {
+    "rel": "staff-dashboard/src/features/notifications/pages/StaffNotificationsPage.tsx",
+    "lines": 59
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/pages/AgentTaskQueuePage.css",
+    "lines": 58
+  },
+  {
+    "rel": "admin-dashboard/src/features/applications/components/ApplicationsTable.css",
+    "lines": 57
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/components/AgentPicker.css",
+    "lines": 56
+  },
+  {
+    "rel": "admin-dashboard/src/core/layout/DashboardLayout.css",
+    "lines": 54
+  },
+  {
+    "rel": "admin-dashboard/src/features/auth/pages/LoginPage.css",
+    "lines": 54
+  },
+  {
+    "rel": "staff-dashboard/src/core/layout/DashboardLayout.css",
+    "lines": 54
+  },
+  {
+    "rel": "staff-dashboard/src/features/auth/pages/LoginPage.css",
+    "lines": 54
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/StatusBadge/StatusBadge.tsx",
+    "lines": 53
+  },
+  {
+    "rel": "admin-dashboard/src/features/revenue/components/RevenueSummaryCards.tsx",
+    "lines": 53
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/StatusBadge/StatusBadge.tsx",
+    "lines": 53
+  },
+  {
+    "rel": "admin-dashboard/src/features/overview/services/overviewApi.ts",
+    "lines": 52
+  },
+  {
+    "rel": "staff-dashboard/src/features/auth/pages/LoginPage.tsx",
+    "lines": 51
+  },
+  {
+    "rel": "staff-dashboard/src/features/notifications/services/staffNotificationsApi.ts",
+    "lines": 50
+  },
+  {
+    "rel": "admin-dashboard/src/features/employees/components/AddEmployeeForm.css",
+    "lines": 49
+  },
+  {
+    "rel": "admin-dashboard/src/infrastructure/persistence/storeCore.ts",
+    "lines": 49
+  },
+  {
+    "rel": "staff-dashboard/src/infrastructure/persistence/storeCore.ts",
+    "lines": 49
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/Modal/Modal.tsx",
+    "lines": 48
+  },
+  {
+    "rel": "admin-dashboard/src/features/services/services/servicesApi.ts",
+    "lines": 48
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/Modal/Modal.tsx",
+    "lines": 48
+  },
+  {
+    "rel": "admin-dashboard/src/features/applications/services/applicationsApi.ts",
+    "lines": 46
+  },
+  {
+    "rel": "admin-dashboard/src/features/employees/services/employeesApi.ts",
+    "lines": 46
+  },
+  {
+    "rel": "admin-dashboard/src/features/overview/components/ApplicationsByServiceChart.tsx",
+    "lines": 46
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/components/DocumentChecklist.tsx",
+    "lines": 46
+  },
+  {
+    "rel": "admin-dashboard/src/features/auth/pages/LoginPage.tsx",
+    "lines": 45
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/SummaryCard/SummaryCard.tsx",
+    "lines": 43
+  },
+  {
+    "rel": "admin-dashboard/src/core/constants/statusEnums.ts",
+    "lines": 43
+  },
+  {
+    "rel": "admin-dashboard/src/features/notifications/pages/NotificationsPage.css",
+    "lines": 43
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/SummaryCard/SummaryCard.tsx",
+    "lines": 43
+  },
+  {
+    "rel": "staff-dashboard/src/core/constants/statusEnums.ts",
+    "lines": 43
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/pages/ManagerOverviewPage.css",
+    "lines": 43
+  },
+  {
+    "rel": "staff-dashboard/src/features/notifications/pages/StaffNotificationsPage.css",
+    "lines": 43
+  },
+  {
+    "rel": "admin-dashboard/src/features/notifications/components/NotificationItem.tsx",
+    "lines": 42
+  },
+  {
+    "rel": "staff-dashboard/src/features/notifications/components/NotificationItem.tsx",
+    "lines": 42
+  },
+  {
+    "rel": "admin-dashboard/src/features/customers/services/customersApi.ts",
+    "lines": 39
+  },
+  {
+    "rel": "admin-dashboard/src/core/constants/roles.ts",
+    "lines": 38
+  },
+  {
+    "rel": "staff-dashboard/src/core/constants/roles.ts",
+    "lines": 38
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/pages/ApplicationVerificationPage.css",
+    "lines": 38
+  },
+  {
+    "rel": "admin-dashboard/src/features/communication/components/ChatThreadList.tsx",
+    "lines": 37
+  },
+  {
+    "rel": "staff-dashboard/src/features/communication/components/ChatThreadList.tsx",
+    "lines": 37
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/Button/Button.tsx",
+    "lines": 35
+  },
+  {
+    "rel": "admin-dashboard/src/core/layout/DashboardLayout.tsx",
+    "lines": 35
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/Button/Button.tsx",
+    "lines": 35
+  },
+  {
+    "rel": "staff-dashboard/src/core/layout/DashboardLayout.tsx",
+    "lines": 35
+  },
+  {
+    "rel": "staff-dashboard/src/features/auth/services/authApi.ts",
+    "lines": 35
+  },
+  {
+    "rel": "admin-dashboard/src/core/styles/reset.css",
+    "lines": 34
+  },
+  {
+    "rel": "staff-dashboard/src/core/styles/reset.css",
+    "lines": 34
+  },
+  {
+    "rel": "admin-dashboard/src/features/auth/services/authApi.ts",
+    "lines": 33
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/PageHeader/PageHeader.tsx",
+    "lines": 32
+  },
+  {
+    "rel": "admin-dashboard/src/features/employees/components/EmployeeList.css",
+    "lines": 32
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/PageHeader/PageHeader.tsx",
+    "lines": 32
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/PriorityBadge/PriorityBadge.css",
+    "lines": 30
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/PriorityBadge/PriorityBadge.css",
+    "lines": 30
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/EmptyState/EmptyState.tsx",
+    "lines": 29
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/EmptyState/EmptyState.tsx",
+    "lines": 29
+  },
+  {
+    "rel": "staff-dashboard/src/features/agent/components/TaskQueueTable.css",
+    "lines": 29
+  },
+  {
+    "rel": "admin-dashboard/src/core/constants/theme.ts",
+    "lines": 27
+  },
+  {
+    "rel": "admin-dashboard/src/features/notifications/services/notificationsApi.ts",
+    "lines": 27
+  },
+  {
+    "rel": "staff-dashboard/src/core/constants/theme.ts",
+    "lines": 27
+  },
+  {
+    "rel": "admin-dashboard/src/core/components/PriorityBadge/PriorityBadge.tsx",
+    "lines": 26
+  },
+  {
+    "rel": "staff-dashboard/src/core/components/PriorityBadge/PriorityBadge.tsx",
+    "lines": 26
+  },
+  {
+    "rel": "staff-dashboard/src/core/hooks/useAuth.ts",
+    "lines": 23
+  },
+  {
+    "rel": "admin-dashboard/src/core/hooks/useAuth.ts",
+    "lines": 22
+  },
+  {
+    "rel": "admin-dashboard/src/features/revenue/services/revenueApi.ts",
+    "lines": 21
+  },
+  {
+    "rel": "admin-dashboard/src/core/services/interceptors.ts",
+    "lines": 20
+  },
+  {
+    "rel": "staff-dashboard/src/core/services/interceptors.ts",
+    "lines": 20
+  },
+  {
+    "rel": "admin-dashboard/src/core/hooks/useDebounce.ts",
+    "lines": 18
+  },
+  {
+    "rel": "admin-dashboard/src/infrastructure/persistence/storageKeys.ts",
+    "lines": 18
+  },
+  {
+    "rel": "staff-dashboard/src/App.tsx",
+    "lines": 18
+  },
+  {
+    "rel": "staff-dashboard/src/core/hooks/useDebounce.ts",
+    "lines": 18
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/components/TeamMonitoringTable.css",
+    "lines": 18
+  },
+  {
+    "rel": "staff-dashboard/src/infrastructure/persistence/storageKeys.ts",
+    "lines": 18
+  },
+  {
+    "rel": "admin-dashboard/src/features/reports/components/ReportsList.css",
+    "lines": 17
+  },
+  {
+    "rel": "admin-dashboard/src/App.tsx",
+    "lines": 15
+  },
+  {
+    "rel": "staff-dashboard/src/features/manager/components/IncomingQueueTable.css",
+    "lines": 15
+  },
+  {
+    "rel": "admin-dashboard/src/main.tsx",
+    "lines": 14
+  },
+  {
+    "rel": "staff-dashboard/src/main.tsx",
+    "lines": 14
+  },
+  {
+    "rel": "admin-dashboard/src/routes/AppRoutes.css",
+    "lines": 10
+  },
+  {
+    "rel": "staff-dashboard/src/routes/AppRoutes.css",
+    "lines": 10
+  },
+  {
+    "rel": "staff-dashboard/src/features/loan-manager/pages/LoanCustomersPage.css",
+    "lines": 8
+  },
+  {
+    "rel": "admin-dashboard/src/App.css",
+    "lines": 6
+  },
+  {
+    "rel": "admin-dashboard/src/core/styles/fonts.css",
+    "lines": 6
+  },
+  {
+    "rel": "staff-dashboard/src/App.css",
+    "lines": 6
+  },
+  {
+    "rel": "staff-dashboard/src/core/styles/fonts.css",
+    "lines": 6
+  },
+  {
+    "rel": "admin-dashboard/src/core/store/sharedWorkflowStore.ts",
+    "lines": 2
+  },
+  {
+    "rel": "admin-dashboard/src/vite-env.d.ts",
+    "lines": 2
+  },
+  {
+    "rel": "staff-dashboard/src/core/store/sharedWorkflowStore.ts",
+    "lines": 2
+  },
+  {
+    "rel": "staff-dashboard/src/vite-env.d.ts",
+    "lines": 2
+  }
+]

@@ -1,0 +1,42 @@
+.tx-notif-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tx-notif-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.tx-notif-title h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--tx-primary-text);
+  margin-bottom: 4px;
+}
+
+.tx-notif-title p {
+  font-size: 14px;
+  color: var(--tx-secondary-text);
+}
+
+.tx-notif-card {
+  background-color: var(--tx-surface);
+  border: 1px solid var(--tx-border);
+  border-radius: var(--tx-radius-lg);
+  box-shadow: var(--tx-shadow-sm);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.tx-notif-empty {
+  padding: 48px;
+  text-align: center;
+  color: var(--tx-muted-text);
+  font-size: 14px;
+}

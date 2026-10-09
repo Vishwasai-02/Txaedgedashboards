@@ -1,0 +1,17 @@
+.tx-team-table-card {
+  background-color: var(--tx-surface);
+  border: 1px solid var(--tx-border);
+  border-radius: var(--tx-radius-lg);
+  box-shadow: var(--tx-shadow-sm);
+  overflow: hidden;
+}
+
+.tx-team-agent-name {
+  font-weight: 700;
+  color: var(--tx-primary-text);
+}
+
+.tx-team-rating {
+  color: var(--tx-primary-orange);
+  font-weight: 600;
+}

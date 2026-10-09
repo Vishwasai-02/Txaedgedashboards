@@ -1,0 +1,299 @@
+.tx-loan-repayments-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tx-repay-toast {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--tx-success-light, #ECFDF5);
+  color: var(--tx-success, #10B981);
+  padding: 10px 16px;
+  border-radius: var(--tx-radius-sm, 6px);
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.tx-repay-kpis {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.tx-repay-kpi-card {
+  background-color: var(--tx-surface, #FFFFFF);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  border-radius: var(--tx-radius-md, 8px);
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.tx-repay-kpi-val {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--tx-primary-navy, #083B75);
+}
+
+.tx-repay-kpi-lbl {
+  font-size: 12px;
+  color: var(--tx-secondary-text, #64748B);
+  margin-top: 2px;
+}
+
+.tx-schedule-table-card {
+  background-color: var(--tx-surface, #FFFFFF);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  border-radius: var(--tx-radius-md, 8px);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+}
+
+.tx-schedule-header {
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--tx-border, #E2E8F0);
+}
+
+.tx-sched-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--tx-primary-text, #172033);
+  margin: 0;
+}
+
+.tx-sched-sub {
+  font-size: 12px;
+  color: var(--tx-secondary-text, #64748B);
+}
+
+.tx-schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13px;
+}
+
+.tx-schedule-table thead th {
+  background-color: var(--tx-background, #F7F9FC);
+  padding: 12px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tx-secondary-text, #64748B);
+  border-bottom: 1px solid var(--tx-border, #E2E8F0);
+}
+
+.tx-schedule-table tbody td {
+  padding: 14px 16px;
+  border-bottom: 1px solid var(--tx-border, #E2E8F0);
+  vertical-align: middle;
+}
+
+.tx-schedule-table tbody tr:hover {
+  background-color: rgba(247, 249, 252, 0.7);
+}
+
+.tx-inst-pill {
+  font-family: monospace;
+  font-weight: 700;
+  font-size: 11px;
+  background-color: var(--tx-light-blue, #EFF6FF);
+  color: var(--tx-primary-blue, #0B5ED7);
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.tx-balance-val {
+  font-family: monospace;
+  font-weight: 600;
+}
+
+.tx-inst-status {
+  display: inline-flex;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 3px 8px;
+  border-radius: 20px;
+  text-transform: uppercase;
+}
+
+.tx-inst-status.paid {
+  background-color: var(--tx-success-light, #ECFDF5);
+  color: var(--tx-success, #10B981);
+}
+
+.tx-inst-status.due {
+  background-color: var(--tx-accent-light, #FFF7ED);
+  color: var(--tx-accent-orange, #F97316);
+}
+
+.tx-inst-status.upcoming {
+  background-color: #F1F5F9;
+  color: #64748B;
+}
+
+.tx-btn-collect-emi {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background-color: var(--tx-success-light, #ECFDF5);
+  color: var(--tx-success, #10B981);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  padding: 5px 10px;
+  border-radius: var(--tx-radius-sm, 6px);
+  font-size: 11px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tx-btn-collect-emi:hover {
+  background-color: var(--tx-success, #10B981);
+  color: #FFFFFF;
+}
+
+.tx-settled-text {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tx-secondary-text, #64748B);
+}
+
+.text-right {
+  text-align: right;
+}
+
+.tx-schedule-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+  border-bottom: 1px solid var(--tx-border, #E2E8F0);
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.tx-sched-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.tx-sched-pills {
+  display: flex;
+  gap: 6px;
+}
+
+.tx-sched-pill {
+  padding: 5px 12px;
+  border-radius: var(--tx-radius-md, 8px);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  background-color: var(--tx-surface, #FFFFFF);
+  color: var(--tx-secondary-text, #64748B);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tx-sched-pill:hover {
+  background-color: var(--tx-background, #F7F9FC);
+  color: var(--tx-primary-text, #172033);
+}
+
+.tx-sched-pill.active {
+  background-color: var(--tx-primary-navy, #083B75);
+  color: #FFFFFF;
+  border-color: var(--tx-primary-navy, #083B75);
+  font-weight: 600;
+}
+
+.tx-btn-remind {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--tx-accent-light, #FFF7ED);
+  color: var(--tx-accent-orange, #F97316);
+  border: 1px solid rgba(249, 115, 22, 0.3);
+  padding: 6px 12px;
+  border-radius: var(--tx-radius-sm, 6px);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tx-btn-remind:hover {
+  background-color: var(--tx-accent-orange, #F97316);
+  color: #FFFFFF;
+}
+
+.tx-btn-export-csv {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--tx-surface, #FFFFFF);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  padding: 6px 12px;
+  border-radius: var(--tx-radius-sm, 6px);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tx-primary-navy, #083B75);
+  cursor: pointer;
+}
+
+.tx-btn-export-csv:hover {
+  background-color: var(--tx-light-blue, #EFF6FF);
+}
+
+/* Demand Modal */
+.tx-demand-modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tx-demand-sub {
+  font-size: 13px;
+  color: var(--tx-secondary-text, #64748B);
+  margin: 0;
+  line-height: 1.4;
+}
+
+.tx-channel-tags {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tx-channel-tag {
+  background-color: var(--tx-light-blue, #EFF6FF);
+  color: var(--tx-primary-blue, #0B5ED7);
+  font-size: 11px;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.tx-demand-modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--tx-border, #E2E8F0);
+}
+
+.tx-btn-send-demand {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--tx-accent-orange, #F97316);
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 16px;
+  border-radius: var(--tx-radius-sm, 6px);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}

@@ -1,0 +1,170 @@
+/* TaxEdge Standardized Form Styles */
+.tx-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.tx-form-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.tx-form-row > .tx-form-group {
+  flex: 1;
+  min-width: 200px;
+}
+
+.tx-form-label,
+.tx-form-group label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--tx-primary-text, #172033);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.tx-required-mark {
+  color: var(--tx-error, #DC2626);
+  font-weight: 700;
+}
+
+.tx-form-input,
+.tx-form-select,
+.tx-form-textarea,
+.tx-form-group input:not([type="checkbox"]):not([type="radio"]),
+.tx-form-group select,
+.tx-form-group textarea {
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 14px;
+  font-family: inherit;
+  color: var(--tx-primary-text, #172033);
+  background-color: var(--tx-surface, #FFFFFF);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  border-radius: var(--tx-radius-md, 6px);
+  transition: border-color var(--tx-transition-fast, 0.15s ease), box-shadow var(--tx-transition-fast, 0.15s ease);
+  outline: none;
+  box-sizing: border-box;
+}
+
+.tx-form-input,
+.tx-form-select,
+.tx-form-group input:not([type="checkbox"]):not([type="radio"]),
+.tx-form-group select {
+  height: 38px;
+}
+
+.tx-form-textarea,
+.tx-form-group textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.tx-form-input:focus,
+.tx-form-select:focus,
+.tx-form-textarea:focus,
+.tx-form-group input:focus,
+.tx-form-group select:focus,
+.tx-form-group textarea:focus {
+  border-color: var(--tx-primary-blue, #0B5ED7);
+  box-shadow: 0 0 0 3px rgba(11, 94, 215, 0.15);
+}
+
+.tx-form-input:disabled,
+.tx-form-select:disabled,
+.tx-form-textarea:disabled,
+.tx-form-group input:disabled,
+.tx-form-group select:disabled,
+.tx-form-group textarea:disabled {
+  background-color: var(--tx-background, #F7F9FC);
+  color: var(--tx-muted-text, #94A3B8);
+  cursor: not-allowed;
+  border-color: var(--tx-border, #E2E8F0);
+}
+
+.tx-form-input.has-error,
+.tx-form-select.has-error,
+.tx-form-textarea.has-error,
+.tx-form-group.has-error input,
+.tx-form-group.has-error select,
+.tx-form-group.has-error textarea {
+  border-color: var(--tx-error, #DC2626);
+}
+
+.tx-form-input.has-error:focus,
+.tx-form-select.has-error:focus,
+.tx-form-textarea.has-error:focus,
+.tx-form-group.has-error input:focus,
+.tx-form-group.has-error select:focus,
+.tx-form-group.has-error textarea:focus {
+  border-color: var(--tx-error, #DC2626);
+  box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.15);
+}
+
+.tx-form-error {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--tx-error, #DC2626);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.tx-form-help {
+  font-size: 12px;
+  color: var(--tx-secondary-text, #64748B);
+  margin-top: 2px;
+}
+
+.tx-input-with-icon {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.tx-input-icon {
+  position: absolute;
+  left: 12px;
+  color: var(--tx-muted-text, #94A3B8);
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+}
+
+.tx-input-with-icon input {
+  padding-left: 36px;
+}
+
+/* Dark Mode Overrides */
+[data-theme="dark"] .tx-form-label,
+[data-theme="dark"] .tx-form-group label {
+  color: var(--tx-primary-text, #F8FAFC);
+}
+
+[data-theme="dark"] .tx-form-input,
+[data-theme="dark"] .tx-form-select,
+[data-theme="dark"] .tx-form-textarea,
+[data-theme="dark"] .tx-form-group input:not([type="checkbox"]):not([type="radio"]),
+[data-theme="dark"] .tx-form-group select,
+[data-theme="dark"] .tx-form-group textarea {
+  background-color: var(--tx-surface, #1E293B);
+  border-color: var(--tx-border, #334155);
+  color: var(--tx-primary-text, #F8FAFC);
+}
+
+[data-theme="dark"] .tx-form-input:disabled,
+[data-theme="dark"] .tx-form-select:disabled,
+[data-theme="dark"] .tx-form-textarea:disabled,
+[data-theme="dark"] .tx-form-group input:disabled,
+[data-theme="dark"] .tx-form-group select:disabled,
+[data-theme="dark"] .tx-form-group textarea:disabled {
+  background-color: var(--tx-background, #0F172A);
+  color: var(--tx-muted-text, #64748B);
+}

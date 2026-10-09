@@ -1,0 +1,113 @@
+.tx-cust-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tx-cust-page-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.tx-cust-page-title h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--tx-primary-text);
+  margin-bottom: 4px;
+}
+
+.tx-cust-page-title p {
+  font-size: 14px;
+  color: var(--tx-secondary-text);
+}
+
+.tx-cust-feedback-toast {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 18px;
+  border-radius: var(--tx-radius-md, 8px);
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.tx-cust-feedback-toast.success {
+  background-color: #E8F5E9;
+  color: #2E7D32;
+  border: 1px solid #A5D6A7;
+}
+
+.tx-cust-feedback-toast.warning {
+  background-color: #FFF8E1;
+  color: #F57F17;
+  border: 1px solid #FFE082;
+}
+
+.tx-customer-dossier {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tx-dossier-header-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  background: var(--tx-background);
+  border: 1px solid var(--tx-border);
+  border-radius: var(--tx-radius-md);
+}
+
+.tx-dossier-id-badge {
+  font-family: var(--tx-font-mono);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--tx-primary-blue);
+  background: rgba(11, 94, 215, 0.1);
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.tx-dossier-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--tx-primary-text);
+  margin: 6px 0 2px 0;
+}
+
+.tx-dossier-director {
+  font-size: 13px;
+  color: var(--tx-secondary-text);
+}
+
+.tx-dossier-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.tx-dossier-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px;
+  background: var(--tx-surface);
+  border: 1px solid var(--tx-border);
+  border-radius: var(--tx-radius-sm);
+}
+
+.tx-field-label {
+  font-size: 12px;
+  color: var(--tx-muted-text);
+  font-weight: 500;
+}
+
+.tx-field-value {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--tx-primary-text);
+}

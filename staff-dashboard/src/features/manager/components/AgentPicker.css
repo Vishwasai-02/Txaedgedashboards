@@ -1,0 +1,55 @@
+.tx-agent-picker {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tx-picker-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tx-picker-label {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--tx-primary-text);
+}
+
+.tx-picker-select,
+.tx-picker-input,
+.tx-picker-textarea {
+  width: 100%;
+  padding: 8px 12px;
+  border-radius: var(--tx-radius-md);
+  border: 1px solid var(--tx-border);
+  background-color: var(--tx-surface);
+  color: var(--tx-primary-text);
+  font-size: 14px;
+  outline: none;
+}
+
+.tx-picker-textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.tx-picker-select:focus,
+.tx-picker-input:focus,
+.tx-picker-textarea:focus {
+  border-color: var(--tx-primary-blue);
+  box-shadow: 0 0 0 3px rgba(11, 94, 215, 0.15);
+}
+
+.tx-picker-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.tx-picker-footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 8px;
+}

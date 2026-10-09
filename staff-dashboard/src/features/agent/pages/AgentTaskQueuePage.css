@@ -1,0 +1,57 @@
+.tx-agent-queue-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tx-agent-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tx-agent-title h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--tx-primary-text, #172033);
+  margin-bottom: 4px;
+}
+
+.tx-agent-title p {
+  font-size: 14px;
+  color: var(--tx-secondary-text, #64748B);
+}
+
+.tx-agent-filters {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  padding: 12px 16px;
+  background-color: var(--tx-surface, #FFFFFF);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  border-radius: var(--tx-radius-md, 8px);
+}
+
+.tx-filter-chip {
+  padding: 6px 14px;
+  border-radius: var(--tx-radius-md, 8px);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  background-color: var(--tx-surface, #FFFFFF);
+  color: var(--tx-secondary-text, #64748B);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.tx-filter-chip:hover {
+  background-color: var(--tx-background, #F7F9FC);
+  color: var(--tx-primary-text, #172033);
+}
+
+.tx-filter-chip.active {
+  background-color: var(--tx-primary-navy, #083B75);
+  color: #FFFFFF;
+  border-color: var(--tx-primary-navy, #083B75);
+  font-weight: 600;
+}

@@ -1,0 +1,329 @@
+.tx-loan-eligibility-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tx-elig-toast {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: var(--tx-success-light, #ECFDF5);
+  color: var(--tx-success, #10B981);
+  padding: 10px 16px;
+  border-radius: var(--tx-radius-sm, 6px);
+  font-size: 13px;
+  font-weight: 600;
+  border: 1px solid rgba(16, 185, 129, 0.2);
+}
+
+.tx-elig-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 20px;
+}
+
+@media (max-width: 1024px) {
+  .tx-elig-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.tx-elig-inputs-card,
+.tx-elig-result-card {
+  background-color: var(--tx-surface, #FFFFFF);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  border-radius: var(--tx-radius-md, 8px);
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tx-card-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--tx-primary-text, #172033);
+  margin: 0;
+}
+
+.tx-form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+}
+
+.tx-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tx-form-group label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tx-primary-text, #172033);
+}
+
+.tx-form-group input,
+.tx-form-group select {
+  padding: 9px 12px;
+  border: 1px solid var(--tx-border, #E2E8F0);
+  border-radius: var(--tx-radius-sm, 6px);
+  font-size: 13px;
+  outline: none;
+}
+
+.tx-verdict-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  border-radius: var(--tx-radius-sm, 6px);
+}
+
+.tx-verdict-banner.eligible {
+  background-color: var(--tx-success-light, #ECFDF5);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  color: #065F46;
+}
+
+.tx-verdict-banner.ineligible {
+  background-color: var(--tx-error-light, #FEF2F2);
+  border: 1px solid rgba(220, 38, 38, 0.3);
+  color: #991B1B;
+}
+
+.tx-verdict-title {
+  font-size: 15px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  display: block;
+}
+
+.tx-verdict-sub {
+  font-size: 12px;
+  margin: 2px 0 0 0;
+  opacity: 0.9;
+}
+
+.tx-elig-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.tx-stat-item {
+  display: flex;
+  flex-direction: column;
+  padding: 12px 14px;
+  background-color: var(--tx-background, #F7F9FC);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  border-radius: var(--tx-radius-sm, 6px);
+}
+
+.tx-stat-item.highlight {
+  grid-column: span 2;
+  background-color: var(--tx-light-blue, #EFF6FF);
+  border-color: rgba(11, 94, 215, 0.25);
+}
+
+.tx-stat-item.highlight .tx-item-val {
+  font-size: 24px;
+  color: var(--tx-primary-navy, #083B75);
+}
+
+.tx-item-lbl {
+  font-size: 11px;
+  color: var(--tx-secondary-text, #64748B);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.tx-item-val {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--tx-primary-text, #172033);
+  margin-top: 2px;
+}
+
+.tx-elig-actions {
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+.tx-btn-cert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  background-color: var(--tx-primary-blue, #0B5ED7);
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 18px;
+  border-radius: var(--tx-radius-sm, 6px);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.tx-btn-cert:hover:not(:disabled) {
+  background-color: var(--tx-primary-navy, #083B75);
+}
+
+.tx-btn-cert:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.tx-inputs-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tx-slider-hint {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 11px;
+  color: var(--tx-primary-blue, #0B5ED7);
+  font-weight: 600;
+  background-color: var(--tx-light-blue, #EFF6FF);
+  padding: 3px 8px;
+  border-radius: 4px;
+}
+
+.tx-label-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tx-range-val {
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--tx-primary-navy, #083B75);
+}
+
+.tx-range-slider {
+  width: 100%;
+  accent-color: var(--tx-primary-blue, #0B5ED7);
+  cursor: pointer;
+  margin: 4px 0;
+}
+
+/* Certificate modal styles */
+.tx-cert-modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.tx-cert-badge-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  background-color: var(--tx-success-light, #ECFDF5);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  padding: 14px 18px;
+  border-radius: var(--tx-radius-sm, 6px);
+  color: #065F46;
+}
+
+.tx-cert-icon {
+  color: var(--tx-success, #10B981);
+  flex-shrink: 0;
+}
+
+.tx-cert-heading {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.tx-cert-subheading {
+  margin: 2px 0 0 0;
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+.tx-cert-details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.tx-cert-detail-item {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 14px;
+  background-color: var(--tx-background, #F7F9FC);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  border-radius: var(--tx-radius-sm, 6px);
+}
+
+.tx-cd-lbl {
+  font-size: 10px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--tx-secondary-text, #64748B);
+}
+
+.tx-cd-val {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--tx-primary-text, #172033);
+  margin-top: 3px;
+}
+
+.tx-cd-val.highlight {
+  color: var(--tx-primary-navy, #083B75);
+  font-size: 15px;
+}
+
+.tx-cert-modal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  padding-top: 10px;
+  border-top: 1px solid var(--tx-border, #E2E8F0);
+}
+
+.tx-btn-cert-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--tx-primary-navy, #083B75);
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 16px;
+  border-radius: var(--tx-radius-sm, 6px);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.tx-btn-cert-download:hover {
+  background-color: var(--tx-primary-blue, #0B5ED7);
+}
+
+.tx-btn-cert-cancel {
+  background-color: transparent;
+  color: var(--tx-secondary-text, #64748B);
+  border: 1px solid var(--tx-border, #E2E8F0);
+  padding: 8px 16px;
+  border-radius: var(--tx-radius-sm, 6px);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.tx-btn-cert-cancel:hover {
+  background-color: var(--tx-background, #F7F9FC);
+  color: var(--tx-primary-text, #172033);
+}

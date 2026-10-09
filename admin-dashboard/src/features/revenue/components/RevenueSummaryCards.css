@@ -1,0 +1,73 @@
+.tx-rev-cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.tx-rev-card {
+  background-color: var(--tx-surface);
+  border: 1px solid var(--tx-border);
+  border-radius: var(--tx-radius-lg);
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  box-shadow: var(--tx-shadow-sm);
+}
+
+.tx-rev-card-period {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--tx-secondary-text);
+}
+
+.tx-rev-card-val {
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--tx-primary-navy);
+}
+
+.tx-breakdown-row {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding: 16px 20px;
+  background-color: var(--tx-surface);
+  border: 1px solid var(--tx-border);
+  border-radius: var(--tx-radius-lg);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tx-breakdown-item {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tx-breakdown-label {
+  font-size: 12px;
+  color: var(--tx-muted-text);
+  font-weight: 500;
+}
+
+.tx-breakdown-value {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tx-breakdown-value.paid {
+  color: var(--tx-success);
+}
+
+.tx-breakdown-value.pending {
+  color: var(--tx-primary-orange);
+}
+
+.tx-breakdown-value.partial {
+  color: var(--tx-primary-blue);
+}
+
+.tx-breakdown-value.refunded {
+  color: var(--tx-error);
+}

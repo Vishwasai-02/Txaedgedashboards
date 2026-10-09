@@ -1,0 +1,142 @@
+.tx-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 600;
+  border-radius: var(--tx-radius-md, 6px);
+  border: 1px solid transparent;
+  cursor: pointer;
+  transition: all var(--tx-transition-fast, 0.15s ease);
+  white-space: nowrap;
+  outline: none;
+  font-family: inherit;
+  user-select: none;
+}
+
+.tx-btn:focus-visible {
+  box-shadow: 0 0 0 3px rgba(11, 94, 215, 0.25);
+}
+
+.tx-btn:active:not(:disabled) {
+  transform: scale(0.98);
+}
+
+/* Sizes */
+.tx-btn-sm {
+  padding: 5px 12px;
+  font-size: 12px;
+  height: 32px;
+}
+
+.tx-btn-md {
+  padding: 8px 16px;
+  font-size: 13px;
+  height: 38px;
+}
+
+.tx-btn-lg {
+  padding: 10px 20px;
+  font-size: 15px;
+  height: 44px;
+}
+
+/* Variants */
+.tx-btn-primary {
+  background-color: var(--tx-primary-navy, #083B75);
+  color: #FFFFFF;
+  border-color: var(--tx-primary-navy, #083B75);
+}
+
+.tx-btn-primary:hover:not(:disabled) {
+  background-color: var(--tx-navy-dark, #052750);
+  border-color: var(--tx-navy-dark, #052750);
+}
+
+.tx-btn-blue {
+  background-color: var(--tx-primary-blue, #0B5ED7);
+  color: #FFFFFF;
+  border-color: var(--tx-primary-blue, #0B5ED7);
+}
+
+.tx-btn-blue:hover:not(:disabled) {
+  background-color: var(--tx-primary-navy, #083B75);
+  border-color: var(--tx-primary-navy, #083B75);
+}
+
+.tx-btn-orange {
+  background-color: var(--tx-primary-orange, #F97316);
+  color: #FFFFFF;
+  border-color: var(--tx-primary-orange, #F97316);
+}
+
+.tx-btn-orange:hover:not(:disabled) {
+  background-color: var(--tx-feature-orange, #FF7A00);
+  border-color: var(--tx-feature-orange, #FF7A00);
+}
+
+.tx-btn-success {
+  background-color: var(--tx-success, #16A34A);
+  color: #FFFFFF;
+  border-color: var(--tx-success, #16A34A);
+}
+
+.tx-btn-success:hover:not(:disabled) {
+  background-color: #15803D;
+  border-color: #15803D;
+}
+
+.tx-btn-danger {
+  background-color: var(--tx-error, #DC2626);
+  color: #FFFFFF;
+  border-color: var(--tx-error, #DC2626);
+}
+
+.tx-btn-danger:hover:not(:disabled) {
+  background-color: #B91C1C;
+  border-color: #B91C1C;
+}
+
+.tx-btn-secondary {
+  background-color: var(--tx-surface, #FFFFFF);
+  color: var(--tx-primary-navy, #083B75);
+  border-color: var(--tx-border, #E2E8F0);
+}
+
+.tx-btn-secondary:hover:not(:disabled) {
+  background-color: var(--tx-background, #F7F9FC);
+  border-color: var(--tx-primary-blue, #0B5ED7);
+}
+
+.tx-btn-text {
+  background-color: transparent;
+  color: var(--tx-primary-blue, #0B5ED7);
+  border-color: transparent;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.tx-btn-text:hover:not(:disabled) {
+  background-color: var(--tx-light-blue, #EAF1FE);
+}
+
+.tx-btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.tx-btn-spinner {
+  width: 16px;
+  height: 16px;
+  border: 2px solid currentColor;
+  border-right-color: transparent;
+  border-radius: 50%;
+  animation: tx-spin 0.75s linear infinite;
+}
+
+@keyframes tx-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

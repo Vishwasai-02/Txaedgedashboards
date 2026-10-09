@@ -1,0 +1,29 @@
+.tx-prio-pill {
+  display: inline-flex;
+  align-items: center;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: var(--tx-radius-sm);
+  letter-spacing: 0.4px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.tx-prio-high {
+  background-color: var(--tx-error-light);
+  color: var(--tx-error);
+  border: 1px solid rgba(220, 38, 38, 0.2);
+}
+
+.tx-prio-medium {
+  background-color: var(--tx-light-blue);
+  color: var(--tx-primary-blue);
+  border: 1px solid rgba(11, 94, 215, 0.2);
+}
+
+.tx-prio-low {
+  background-color: var(--tx-background);
+  color: var(--tx-secondary-text);
+  border: 1px solid var(--tx-border);
+}

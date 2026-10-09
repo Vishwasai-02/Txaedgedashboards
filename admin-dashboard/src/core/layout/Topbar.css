@@ -1,0 +1,202 @@
+.tx-topbar {
+  height: 64px;
+  background-color: var(--tx-surface);
+  border-bottom: 1px solid var(--tx-border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  position: sticky;
+  top: 0;
+  z-index: 90;
+  box-shadow: var(--tx-shadow-sm);
+  flex-shrink: 0;
+}
+
+.tx-topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.tx-topbar-mobile-menu-btn {
+  display: none;
+  background: transparent;
+  border: 1px solid var(--tx-border);
+  color: var(--tx-primary-navy);
+  padding: 6px;
+  border-radius: var(--tx-radius-md);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition: all var(--tx-transition-fast);
+}
+
+.tx-topbar-mobile-menu-btn:hover {
+  background-color: var(--tx-background);
+  border-color: var(--tx-primary-blue);
+}
+
+.tx-page-title-heading {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--tx-primary-text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.tx-topbar-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.tx-topbar-staff-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  background-color: rgba(8, 59, 117, 0.08);
+  color: var(--tx-primary-navy);
+  border-radius: var(--tx-radius-md);
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid rgba(8, 59, 117, 0.15);
+  transition: all var(--tx-transition-fast);
+}
+
+.tx-topbar-staff-link:hover {
+  background-color: var(--tx-primary-navy);
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.tx-role-badge-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: var(--tx-light-blue);
+  color: var(--tx-primary-navy);
+  padding: 4px 10px;
+  border-radius: var(--tx-radius-full);
+  font-size: 12px;
+  font-weight: 600;
+  border: 1px solid rgba(8, 59, 117, 0.15);
+}
+
+.tx-topbar-action-btn {
+  width: 38px;
+  height: 38px;
+  border-radius: var(--tx-radius-md);
+  border: 1px solid var(--tx-border);
+  background-color: var(--tx-surface);
+  color: var(--tx-secondary-text);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  transition: all var(--tx-transition-fast);
+}
+
+.tx-topbar-action-btn:hover {
+  background-color: var(--tx-background);
+  color: var(--tx-primary-navy);
+  border-color: var(--tx-primary-blue);
+}
+
+.tx-topbar-badge-dot {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  width: 8px;
+  height: 8px;
+  background-color: var(--tx-primary-orange);
+  border-radius: 50%;
+  border: 2px solid var(--tx-surface);
+}
+
+.tx-topbar-profile-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: var(--tx-radius-md);
+  transition: background-color var(--tx-transition-fast);
+}
+
+.tx-topbar-profile-container:hover {
+  background-color: var(--tx-background);
+}
+
+.tx-topbar-avatar {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: var(--tx-header-gradient);
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.tx-topbar-user-details {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.tx-topbar-user-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--tx-primary-text);
+  line-height: 1.2;
+}
+
+.tx-topbar-user-email {
+  font-size: 11px;
+  color: var(--tx-muted-text);
+  line-height: 1.2;
+}
+
+/* Responsive Topbar Rules */
+@media (max-width: 1024px) {
+  .tx-topbar-mobile-menu-btn {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .tx-topbar {
+    padding: 0 14px;
+    height: 58px;
+  }
+
+  .tx-page-title-heading {
+    font-size: 16px;
+  }
+
+  .tx-role-badge-pill {
+    display: none;
+  }
+
+  .tx-topbar-user-details {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .tx-topbar-staff-link span {
+    display: none;
+  }
+  .tx-topbar-staff-link {
+    padding: 6px 8px;
+  }
+}

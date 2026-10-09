@@ -1,0 +1,63 @@
+.tx-customer-id {
+  font-family: var(--tx-font-mono);
+  font-weight: 700;
+  color: var(--tx-primary-navy);
+}
+
+.tx-kyc-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: var(--tx-radius-full);
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.tx-kyc-badge.verified {
+  background-color: var(--tx-success-light);
+  color: var(--tx-success);
+}
+
+.tx-kyc-badge.pending {
+  background-color: var(--tx-light-orange);
+  color: var(--tx-primary-orange);
+}
+
+.tx-gst-badge {
+  font-family: var(--tx-font-mono);
+  font-size: 11px;
+  color: var(--tx-secondary-text);
+}
+
+.tx-table-action-group {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.tx-btn-icon-action {
+  background: var(--tx-surface);
+  border: 1px solid var(--tx-border);
+  border-radius: var(--tx-radius-sm);
+  padding: 6px;
+  color: var(--tx-secondary-text);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.tx-btn-icon-action:hover {
+  background: var(--tx-background);
+  color: var(--tx-primary-blue);
+  border-color: var(--tx-primary-blue);
+}
+
+.tx-btn-icon-action.danger:hover {
+  background: #FEF2F2;
+  color: #DC2626;
+  border-color: #DC2626;
+}
+

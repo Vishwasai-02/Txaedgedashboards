@@ -1,0 +1,31 @@
+.tx-employee-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.tx-emp-status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: var(--tx-radius-full);
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.tx-emp-status-badge.active {
+  background-color: var(--tx-success-light);
+  color: var(--tx-success);
+}
+
+.tx-emp-status-badge.disabled {
+  background-color: var(--tx-error-light);
+  color: var(--tx-error);
+}
+
+.tx-emp-actions-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}

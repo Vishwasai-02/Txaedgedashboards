@@ -1,0 +1,28 @@
+.tx-task-id-badge {
+  font-family: var(--tx-font-mono);
+  font-weight: 700;
+  color: var(--tx-primary-navy);
+}
+
+.tx-task-status {
+  display: inline-flex;
+  padding: 3px 8px;
+  border-radius: var(--tx-radius-full);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.tx-task-status.in_progress {
+  background-color: var(--tx-light-blue);
+  color: var(--tx-primary-blue);
+}
+
+.tx-task-status.completed {
+  background-color: var(--tx-success-light);
+  color: var(--tx-success);
+}
+
+.tx-task-status.pending_mca_approval {
+  background-color: var(--tx-light-orange);
+  color: var(--tx-primary-orange);
+}

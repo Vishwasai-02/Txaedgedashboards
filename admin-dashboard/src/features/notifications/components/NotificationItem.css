@@ -1,0 +1,95 @@
+.tx-notif-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 20px;
+  background-color: var(--tx-surface);
+  border-bottom: 1px solid var(--tx-border);
+  transition: background-color var(--tx-transition-fast);
+  cursor: pointer;
+}
+
+.tx-notif-item:hover {
+  background-color: var(--tx-background);
+}
+
+.tx-notif-item.unread {
+  background-color: #F4F7FC;
+  border-left: 4px solid var(--tx-primary-blue);
+}
+
+.tx-notif-icon-box {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.tx-notif-icon-box.alert {
+  background-color: var(--tx-error-light);
+  color: var(--tx-error);
+}
+
+.tx-notif-icon-box.payment {
+  background-color: var(--tx-success-light);
+  color: var(--tx-success);
+}
+
+.tx-notif-icon-box.success {
+  background-color: var(--tx-light-blue);
+  color: var(--tx-primary-blue);
+}
+
+.tx-notif-icon-box.warning {
+  background-color: var(--tx-light-orange);
+  color: var(--tx-primary-orange);
+}
+
+.tx-notif-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.tx-notif-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tx-notif-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--tx-primary-text);
+}
+
+.tx-notif-time {
+  font-size: 12px;
+  color: var(--tx-muted-text);
+}
+
+.tx-notif-msg {
+  font-size: 13px;
+  color: var(--tx-secondary-text);
+}
+
+.tx-notif-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.tx-notif-app-ref {
+  font-family: var(--tx-font-mono);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--tx-primary-navy);
+  background-color: var(--tx-light-blue);
+  padding: 1px 6px;
+  border-radius: var(--tx-radius-sm);
+}

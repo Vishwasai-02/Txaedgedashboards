@@ -1,0 +1,14 @@
+.tx-mgr-app-id {
+  font-family: var(--tx-font-mono);
+  font-weight: 700;
+  color: var(--tx-primary-blue);
+  background-color: var(--tx-light-blue);
+  padding: 2px 8px;
+  border-radius: var(--tx-radius-sm);
+}
+
+.tx-queue-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
